@@ -18,7 +18,7 @@ net.setInputMean((127.5, 127.5, 127.5))
 net.setInputSwapRB(True)
 
 # ID de clase "person"
-person_class_id = classNames.index("person") + 1
+person_class_id = classNames.index("persona") + 1
 
 def contar_personas(img):
     person_count = 0
